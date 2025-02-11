@@ -5,5 +5,18 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-poppins: 'Poppins'
+  --font-poppins: 'Poppins';
+
+  --color-gray: #414141;
+  --gradient: 
+
+  --animate-rect-slide: rect-slide .4s ease-in;
+  @keyframes rect-slide {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
 }
