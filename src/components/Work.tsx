@@ -34,7 +34,7 @@ const Work = () => {
   }, [])
 
   return (
-    <section className="flex py-25">
+    <section className="flex pt-25">
       <div className="flex-1 flex justify-end">
         <div className="grid grid-auto-flow grid-rows-2 grid-cols-2">
           <div className="h-[220px] w-[220px] relative">
