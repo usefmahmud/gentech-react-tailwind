@@ -8,7 +8,6 @@
   --font-poppins: 'Poppins';
 
   --color-gray: #414141;
-  --gradient: 
 
   --animate-rect-slide: rect-slide .4s ease-in;
   @keyframes rect-slide {
