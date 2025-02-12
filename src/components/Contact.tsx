@@ -48,8 +48,8 @@ const Contact = () => {
   }, [isSubmitting]);
   
   return (
-    <div className='pt-25 flex justify-center'>
-      <div className="container flex px-10">
+    <div className='py-25 flex  justify-center'>
+      <div className="container flex flex-col lg:flex-row px-10">
         <div className="flex-1 flex flex-col gap-5">
           <div>
             <span className="text-lime-500 font-black">Contact Us</span>
@@ -83,9 +83,9 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="flex-1 flex items-center justify-center">
-          <div className="bg-[#388016] rounded-xl px-10 py-7 shadow-xl">
-            <form className="flex flex-col gap-3 min-w-[280px]" onSubmit={handleSubmit(onSubmit)}>
+        <div className="flex-1 flex items-center justify-center min-h-[400px]">
+          <div className="h-full w-full px-10 py-8">
+            <form className="bg-[#388016] rounded-xl px-10 py-7 shadow-xl flex flex-col h-full w-full justify-around min-w-[280px]" onSubmit={handleSubmit(onSubmit)}>
               <div className="flex flex-col">
                 <input 
                   type="email" 
