@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import { useState } from 'react'
 
 import { CiLight, CiCloudMoon } from "react-icons/ci"
+import Customers from './components/Customers'
 
 type THEMES = 'light' | 'dark' 
 
@@ -27,7 +28,7 @@ const App = () => {
       <Hero />
       <Work />
       <Services />
-
+      <Customers />
       <Contact />
 
       <div className='fixed z-50 bottom-5 right-5'>
