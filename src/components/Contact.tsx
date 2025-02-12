@@ -101,7 +101,7 @@ const Contact = () => {
                 />
                 {
                   errors.email && 
-                  <span className="text-red-900 font-bold text-[10px] pt-1 pl-3">* {errors.email?.message}</span>
+                  <span className="text-red-900 font-bold text-sm pt-1 pl-3">* {errors.email?.message}</span>
                 }
               </div>
 
@@ -116,7 +116,7 @@ const Contact = () => {
                 />
                 {
                   errors.subject && 
-                  <span className="text-red-900 font-bold text-[10px] pt-1 pl-3">* {errors.subject?.message}</span>
+                  <span className="text-red-900 font-bold text-sm pt-1 pl-3">* {errors.subject?.message}</span>
                 }
               </div>
 
@@ -135,7 +135,7 @@ const Contact = () => {
                 
                 {
                   errors.message && 
-                  <span className="text-red-900 font-bold text-[10px] pt-1 pl-3">* {errors.message?.message}</span>
+                  <span className="text-red-900 font-bold text-sm pt-1 pl-3">* {errors.message?.message}</span>
                 }
               </div>
 
@@ -146,7 +146,7 @@ const Contact = () => {
 
                 {
                   isSubmitSuccessful &&
-                  <span className="text-white font-bold text-[10px] pt-1 pl-3">form sent successfully</span>
+                  <span className="text-white font-bold text-sm pt-1 pl-3">form sent successfully</span>
                 }
               </div>
             </form>
