@@ -22,8 +22,8 @@ const LOGOS = [
 
 const Customers = () => {
   return (
-    <section className="flex pt-25">
-      <div className='flex-1 flex items-center justify-center'>
+    <section className="flex lg:flex-row flex-col lg:gap-0 gap-10 lg:pt-25 pt-10">
+      <div className='flex-1 flex lg:items-center lg:justify-center justify-start lg:pl-0 pl-20'>
         <div className='flex flex-col justify-around gap-5'>
           <h2 className='text-5xl/15 font-bold max-w-[500px] text-gray'>Our Customers are our biggest fans</h2>
           <p className='text-3xl max-w-[500px] font-medium text-gray-500'>We have helped startups around the globe as well as fortune 500 companies</p>
@@ -31,7 +31,7 @@ const Customers = () => {
         </div>
       </div>
 
-      <div className='flex-1'>
+      <div className='flex-1 flex justify-center lg:block'>
         <div className="grid grid-cols-3 px-20 gap-5">
           {
             LOGOS.map(logo => (
