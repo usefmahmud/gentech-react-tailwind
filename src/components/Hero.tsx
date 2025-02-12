@@ -21,7 +21,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='flex-1'>
+      <div className='flex-1 hidden lg:block'>
         <img src={HomeImage} className='w-full'/>
       </div>
     </section>
